@@ -84,41 +84,17 @@
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-console.log("Hello from appjs");
-
-/***/ }),
-
-/***/ "./resources/scss/app.scss":
-/*!*********************************!*\
-  !*** ./resources/scss/app.scss ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/scss/app.scss ***!
-  \*************************************************************/
+/******/ ([
+/* 0 */
+/*!*****************************************!*\
+  !*** multi ./src/app.js ./src/app.scss ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\Practice\Node\Final\pizza\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\Practice\Node\Final\pizza\resources\scss\app.scss */"./resources/scss/app.scss");
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'E:\\Practice\\Node\\Final\\pizza\\src\\app.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'E:\\Practice\\Node\\Final\\pizza\\src\\app.scss'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 /***/ })
-
-/******/ });
+/******/ ]);
