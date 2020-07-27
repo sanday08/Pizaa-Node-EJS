@@ -24,15 +24,6 @@ nav li a:hover {
   background: #f8f8f8;
 }
 
-#btn_order {
-  color: #fff;
-  background: #fe5f1e;
-}
-
-#btn_order:hover {
-  background: #b23301;
-}
-
 .size {
   background: #f8f8f8;
 }
@@ -47,5 +38,35 @@ nav li a:hover {
   background: #fe5f1e;
   color: #fff;
   border-color: #fe5f1e;
+}
+
+.btn-primary {
+  background: #fe5f1e;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: #b23301;
+}
+
+section.cart {
+  background: #f8f8f8;
+}
+
+section.cart .amount {
+  color: #fe5f1e;
+}
+
+section.login {
+  background: #f8f8f8;
+  min-height: 90vh;
+}
+
+section.login a {
+  color: #fe5f1e;
+}
+
+section.login a:hover {
+  color: #b23301;
 }
 
